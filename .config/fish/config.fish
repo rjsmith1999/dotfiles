@@ -5,3 +5,7 @@ set -q XDG_DATA_HOME
 
 # Load Oh My Fish configuration.
 source $OMF_PATH/init.fish
+
+# alias for dotfile repo
+alias home="git --work-tree=$HOME --git-dir=$HOME/.files.git"
+
