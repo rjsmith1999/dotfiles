@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Jackson Smith
+	email = rjsmithdev@icloud.com
+[core]
+	excludesfile = ~/.gitignore_global
+
+[color]
+	ui = auto
+
+[alias]
+	s = status -s
+
+[push]
+	default = simple
