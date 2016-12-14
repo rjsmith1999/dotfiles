@@ -8,4 +8,8 @@ source $OMF_PATH/init.fish
 
 # alias for dotfile repo
 alias home="git --work-tree=$HOME --git-dir=$HOME/.files.git"
+complete home -w git
 
+# alias for hub
+alias git="hub"
+complete git -w hub
