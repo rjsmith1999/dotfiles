@@ -2,7 +2,8 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = Jackson Smith
-	email = rjsmithdev@icloud.com
+	email = rjsmith1999@gmail.com
+	
 [core]
 	excludesfile = ~/.gitignore_global
 
@@ -11,6 +12,9 @@
 
 [alias]
 	s = status -s
+
+[hub]
+	protocol = https
 
 [push]
 	default = simple
