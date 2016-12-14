@@ -18,5 +18,4 @@
 
 [push]
 	default = simple
-[hub]
-	protocol = https
+
