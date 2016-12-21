@@ -7,9 +7,9 @@ set -q XDG_DATA_HOME
 source $OMF_PATH/init.fish
 
 # alias for dotfile repo
-alias home="git --work-tree=$HOME --git-dir=$HOME/.files.git"
+alias home="/usr/bin/git --work-tree=$HOME --git-dir=$HOME/.files.git"
 complete -c home -w git
 
 # alias for hub
 alias git="hub"
-complete -c git -w hub
+
