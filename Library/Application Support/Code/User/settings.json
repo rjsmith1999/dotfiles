@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "files.autoSave": "onFocusChange",
+
+    "editor.formatOnType": true,
+    "editor.quickSuggestionsDelay": 2,
+    "editor.rulers": [
+        80
+    ],
+
+    "window.openFilesInNewWindow": false,
+
+    "typescript.useCodeSnippetsOnMethodSuggest": true,
+
+    "terminal.external.osxExec": "iTerm.app",
+    "window.zoomLevel": 0,
+    "git.confirmSync": false
+  }
