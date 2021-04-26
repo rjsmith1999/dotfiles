@@ -13,9 +13,6 @@
 [alias]
 	s = status -s
 
-[hub]
-	protocol = https
-
 [push]
 	default = simple
 

@@ -67,5 +67,5 @@ inoremap jk <Esc>
 set tabstop=4
 set shiftwidth=4
 
-colorscheme solarized
+"colorscheme solarized
 
