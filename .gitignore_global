@@ -4,6 +4,9 @@
 # Thumbnails
 ._*
 
+# Ignore vscode settings by default, we can always add them if wanted
+.vscode/
+
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
