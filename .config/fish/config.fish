@@ -20,6 +20,8 @@ if command -sq xclip
   alias pbpaste='xclip -out -selection clipboard'
 end
 
+set -x LM_LICENSE_FILE "2100@ece-xilinx.byu.edu"
+
 # And xilinx files to path
 if test -e /tools/Xilinx/Vivado/2020.2
   set -a PATH /tools/Xilinx/Model_Composer/2020.2/bin
@@ -50,6 +52,16 @@ if test -e /tools/Xilinx/Vitis/2020.2/
   set -x XILINX_VITIS /tools/Xilinx/Vitis/2020.2
   set -x XILINX_HLS /tools/Xilinx/Vitis_HLS/2020.2
 end
+
+# FIXME: Add petalinux files to path
+# if test -e /tools/Xilinx/Vivado/2020.2
+#   set -a PATH /tools/Xilinx/Model_Composer/2020.2/bin
+#   set -a PATH /tools/Xilinx/DocNav
+#   set -a PATH /tools/Xilinx/Vivado/2020.2/bin
+
+#   # Xilinx env vars
+#   set -x XILINX_VIVADO /tools/Xilinx/Vivado/2020.2
+# end
 
 # Install Ruby Gems to ~/.gems
 export GEM_HOME="$HOME/.gems"
